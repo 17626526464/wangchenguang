@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/home',function () {
+    echo "~ 欢迎回家 ~";
+});
